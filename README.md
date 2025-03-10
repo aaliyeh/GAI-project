@@ -51,8 +51,8 @@ This approach mirrors human language acquisition – first building broad lingui
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/russian-formalization-t5.git
-cd russian-formalization-t5
+git clone https://github.com/aaliyeh/GAI-project.git
+cd GAI-project
 pip install -r requirements.txt
 ```
 
