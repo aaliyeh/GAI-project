@@ -6,8 +6,7 @@
 A sequence-to-sequence model for converting informal Russian text (e.g., "Приветик") into formal equivalents (e.g., "Здравствуйте").
 
 ## Project Overview
-**Goal**: Convert informal Russian text (social media posts, chats) into formal register while preserving meaning.  
-**Challenge**: Handle slang, grammatical informality, and noisy outputs through fine-tuning.
+This project develops a Russian text formalization system using a fine-tuned T5 model to convert informal phrases (e.g., slang, chats) into formal equivalents. It addresses challenges like noisy outputs and lack of language understanding through a structured pipeline: dataset curation (35k+ pairs), model initialization with ai-forever/ruT5-base, and task-specific fine-tuning. While initial results show promising pattern recognition, the model struggles with rare slang and repetitive tokens, motivating plans for intermediate pretraining on raw Russian corpora. The repository includes modular code and a Jupyter notebook demonstrating end-to-end workflow, serving as a foundation for robust informal-to-formal translation in applications like email drafting or customer service
 
 **Key Features**:
 - Fine-tuned `ai-forever/ruT5-base` model
